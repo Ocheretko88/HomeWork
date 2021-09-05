@@ -1,2 +1,12 @@
 squash 2-3 commits
+
+	 git rebase -i
+	 https://drive.google.com/file/d/1PIQI6wLSQpo988yrMgVfpNkR5M7L9bj1/view?usp=sharing
+
+
 how to unsquash them?
+
+	git reflog
+	git checkout <hash>
+	https://drive.google.com/file/d/17jTkRYOzLovz94EIXrZ49rE-RMxXeyha/view?usp=sharing
+	
