@@ -1,0 +1,5 @@
+what is branch hell and when it appear?
+
+Коли ми використовуємо git merge для мерджа, то не видаляються гілки, які були смерджені to master. Щоб видалити локальні гілки, які були змерджені:
+
+	git branch --format="%(refname:lstrip=2)" --merged | xargs git branch -d
